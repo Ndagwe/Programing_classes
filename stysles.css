@@ -1,0 +1,35 @@
+/*styling for a class*/
+.cord{
+    border: 1px solid #ddd;
+    padding: 20px
+    background-color: #f9f9f9;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+/*styling fot id*/
+#main-heading{
+    font-size: 2em;
+    color: #333;
+    text-align: center;
+    margin-bottom:  20px;
+}
+/*styling for an atribute selector (targeting link with the "target" attribute)*/
+a[ target="_blank"] {
+    color: #007bff;
+    text-decoration: underline;
+}
+a[target="_blank"]:hover{
+    color: #007bff;
+}
+
+/*styling for an imput element with the "type" attribut set to text*/
+input[type="text"]{
+    width: 100%;
+    padding: 10;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+
+
+}
