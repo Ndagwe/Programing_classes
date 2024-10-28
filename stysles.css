@@ -1,12 +1,11 @@
 /*styling for a class*/
-.cord{
-    border: 1px solid #ddd;
-    padding: 20px
-    background-color: #f9f9f9;
-    margin: 10px;
-    border-radius: 8px;
+.card{
+border: 10px solid #ddd;
+padding: 20px;
+background-color: #f9f9f9;
+margin: 10px;
+border-radius: 8px;
 }
-
 /*styling fot id*/
 #main-heading{
     font-size: 2em;
@@ -29,7 +28,11 @@ input[type="text"]{
     padding: 10;
     border: 1px solid #ccc;
     border-radius: 4px;
-    
-
-
+    margin-bottom: 15px;
+}
+/*Styling for a disabled button (using attribute selector) */
+button[disabled] {
+    background-color:  #ccc;
+    color: #666;
+    cursor: not-allowed;
 }
